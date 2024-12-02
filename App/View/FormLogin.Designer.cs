@@ -39,15 +39,15 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(515, 1033);
+            panel1.Size = new Size(590, 1033);
             panel1.TabIndex = 0;
             // 
             // tempatLogin
             // 
             tempatLogin.Dock = DockStyle.Right;
-            tempatLogin.Location = new Point(520, 0);
+            tempatLogin.Location = new Point(596, 0);
             tempatLogin.Name = "tempatLogin";
-            tempatLogin.Size = new Size(1382, 1033);
+            tempatLogin.Size = new Size(1306, 1033);
             tempatLogin.TabIndex = 1;
             // 
             // formLogin

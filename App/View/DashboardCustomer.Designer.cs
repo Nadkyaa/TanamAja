@@ -28,139 +28,104 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
-            button1 = new Button();
-            btnProfil = new Button();
-            btnRiwayat = new Button();
-            btnPesanan = new Button();
-            btnKatalog = new Button();
-            colorDialog1 = new ColorDialog();
             tempatDashboardCustomer = new Panel();
-            panel1.SuspendLayout();
+            button2 = new Button();
+            button1 = new Button();
+            btnBeranda = new Button();
+            btnProfilCustomer = new Button();
+            tempatDashboardCustomer.SuspendLayout();
             SuspendLayout();
-            // 
-            // panel1
-            // 
-            panel1.BackgroundImage = Properties.Resources.Dashboard_Pinggir;
-            panel1.BackgroundImageLayout = ImageLayout.Zoom;
-            panel1.Controls.Add(button1);
-            panel1.Controls.Add(btnProfil);
-            panel1.Controls.Add(btnRiwayat);
-            panel1.Controls.Add(btnPesanan);
-            panel1.Controls.Add(btnKatalog);
-            panel1.Location = new Point(12, 12);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(404, 1022);
-            panel1.TabIndex = 0;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.FromArgb(232, 236, 215);
-            button1.Cursor = Cursors.Hand;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Image = Properties.Resources.IkonKeluar;
-            button1.Location = new Point(134, 911);
-            button1.Name = "button1";
-            button1.Size = new Size(118, 50);
-            button1.TabIndex = 0;
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // btnProfil
-            // 
-            btnProfil.BackColor = Color.FromArgb(187, 138, 82);
-            btnProfil.FlatAppearance.BorderSize = 0;
-            btnProfil.FlatStyle = FlatStyle.Flat;
-            btnProfil.Font = new Font("Source Han Sans CN Bold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnProfil.Image = Properties.Resources.IkonProfil__1_;
-            btnProfil.Location = new Point(40, 735);
-            btnProfil.Name = "btnProfil";
-            btnProfil.Size = new Size(320, 101);
-            btnProfil.TabIndex = 4;
-            btnProfil.Text = "    Profil";
-            btnProfil.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnProfil.UseVisualStyleBackColor = false;
-            // 
-            // btnRiwayat
-            // 
-            btnRiwayat.BackColor = Color.FromArgb(187, 138, 82);
-            btnRiwayat.FlatAppearance.BorderSize = 0;
-            btnRiwayat.FlatStyle = FlatStyle.Flat;
-            btnRiwayat.Font = new Font("Source Han Sans CN Bold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRiwayat.Image = Properties.Resources.Ikon_Riwayat__1_;
-            btnRiwayat.Location = new Point(40, 548);
-            btnRiwayat.Name = "btnRiwayat";
-            btnRiwayat.Size = new Size(320, 101);
-            btnRiwayat.TabIndex = 3;
-            btnRiwayat.Text = "    Riwayat Pesanan";
-            btnRiwayat.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnRiwayat.UseVisualStyleBackColor = false;
-            // 
-            // btnPesanan
-            // 
-            btnPesanan.BackColor = Color.FromArgb(187, 138, 82);
-            btnPesanan.FlatAppearance.BorderSize = 0;
-            btnPesanan.FlatStyle = FlatStyle.Flat;
-            btnPesanan.Font = new Font("Source Han Sans CN Bold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnPesanan.Image = Properties.Resources.IkonPesanan__2_;
-            btnPesanan.Location = new Point(40, 367);
-            btnPesanan.Name = "btnPesanan";
-            btnPesanan.Size = new Size(320, 101);
-            btnPesanan.TabIndex = 2;
-            btnPesanan.Text = "        Pesanan";
-            btnPesanan.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnPesanan.UseVisualStyleBackColor = false;
-            // 
-            // btnKatalog
-            // 
-            btnKatalog.BackColor = Color.FromArgb(187, 138, 82);
-            btnKatalog.BackgroundImageLayout = ImageLayout.None;
-            btnKatalog.Cursor = Cursors.Hand;
-            btnKatalog.FlatAppearance.BorderSize = 0;
-            btnKatalog.FlatStyle = FlatStyle.Flat;
-            btnKatalog.Font = new Font("Source Han Sans CN Bold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnKatalog.Image = Properties.Resources.IkonKatalog__1_;
-            btnKatalog.Location = new Point(40, 185);
-            btnKatalog.Name = "btnKatalog";
-            btnKatalog.Size = new Size(320, 101);
-            btnKatalog.TabIndex = 0;
-            btnKatalog.Text = "          Katalog";
-            btnKatalog.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnKatalog.UseVisualStyleBackColor = false;
-            btnKatalog.Click += btnKatalog_Click;
             // 
             // tempatDashboardCustomer
             // 
-            tempatDashboardCustomer.Location = new Point(422, 12);
+            tempatDashboardCustomer.BackgroundImage = Properties.Resources.CUSTOMER_Beranda_3;
+            tempatDashboardCustomer.BackgroundImageLayout = ImageLayout.Zoom;
+            tempatDashboardCustomer.Controls.Add(button2);
+            tempatDashboardCustomer.Controls.Add(button1);
+            tempatDashboardCustomer.Controls.Add(btnBeranda);
+            tempatDashboardCustomer.Controls.Add(btnProfilCustomer);
+            tempatDashboardCustomer.Location = new Point(188, 84);
             tempatDashboardCustomer.Name = "tempatDashboardCustomer";
-            tempatDashboardCustomer.Size = new Size(1468, 1009);
-            tempatDashboardCustomer.TabIndex = 1;
-            tempatDashboardCustomer.Paint += tempatDashboardCustomer_Paint;
+            tempatDashboardCustomer.Size = new Size(1526, 864);
+            tempatDashboardCustomer.TabIndex = 0;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.FromArgb(187, 138, 82);
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Source Han Sans CN Bold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 128);
+            button2.Image = Properties.Resources.Ikon_Riwayat__1_;
+            button2.Location = new Point(1020, 80);
+            button2.Name = "button2";
+            button2.Size = new Size(290, 61);
+            button2.TabIndex = 3;
+            button2.Text = "   Riwayat Pesanan";
+            button2.TextImageRelation = TextImageRelation.ImageBeforeText;
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(187, 138, 82);
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Source Han Sans CN Bold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Image = Properties.Resources.IkonPesanan__2_;
+            button1.Location = new Point(624, 81);
+            button1.Name = "button1";
+            button1.Size = new Size(290, 60);
+            button1.TabIndex = 2;
+            button1.Text = "     Pesanan";
+            button1.TextImageRelation = TextImageRelation.ImageBeforeText;
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // btnBeranda
+            // 
+            btnBeranda.BackColor = Color.FromArgb(187, 138, 82);
+            btnBeranda.FlatAppearance.BorderSize = 0;
+            btnBeranda.FlatStyle = FlatStyle.Flat;
+            btnBeranda.Font = new Font("Source Han Sans CN Bold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 128);
+            btnBeranda.Image = Properties.Resources.IkonKatalog__1_;
+            btnBeranda.Location = new Point(239, 83);
+            btnBeranda.Name = "btnBeranda";
+            btnBeranda.Size = new Size(290, 60);
+            btnBeranda.TabIndex = 1;
+            btnBeranda.Text = "     Beranda";
+            btnBeranda.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnBeranda.UseVisualStyleBackColor = false;
+            // 
+            // btnProfilCustomer
+            // 
+            btnProfilCustomer.BackColor = Color.FromArgb(232, 236, 215);
+            btnProfilCustomer.FlatAppearance.BorderSize = 0;
+            btnProfilCustomer.FlatStyle = FlatStyle.Flat;
+            btnProfilCustomer.Image = Properties.Resources.IkonProfilUser__1_;
+            btnProfilCustomer.Location = new Point(1332, 50);
+            btnProfilCustomer.Name = "btnProfilCustomer";
+            btnProfilCustomer.Size = new Size(151, 72);
+            btnProfilCustomer.TabIndex = 0;
+            btnProfilCustomer.UseVisualStyleBackColor = false;
             // 
             // DashboardCustomer
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlLight;
+            BackColor = Color.FromArgb(232, 236, 215);
+            BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(1902, 1033);
             Controls.Add(tempatDashboardCustomer);
-            Controls.Add(panel1);
             Name = "DashboardCustomer";
-            Text = "w";
-            Load += DashboardCustomer_Load;
-            panel1.ResumeLayout(false);
+            Text = "Dashboard";
+            tempatDashboardCustomer.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panel1;
-        private Button btnKatalog;
-        private Button btnPesanan;
-        private ColorDialog colorDialog1;
-        private Button btnProfil;
-        private Button btnRiwayat;
         private Panel tempatDashboardCustomer;
+        private Button btnProfilCustomer;
+        private Button btnBeranda;
+        private Button button2;
         private Button button1;
     }
 }

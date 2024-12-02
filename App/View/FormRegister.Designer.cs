@@ -38,14 +38,14 @@
             panel1.BackgroundImageLayout = ImageLayout.Zoom;
             panel1.Location = new Point(3, 12);
             panel1.Name = "panel1";
-            panel1.Size = new Size(515, 1033);
+            panel1.Size = new Size(590, 1033);
             panel1.TabIndex = 0;
             // 
             // panel2
             // 
-            panel2.Location = new Point(524, 12);
+            panel2.Location = new Point(599, 12);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1382, 1033);
+            panel2.Size = new Size(1306, 1033);
             panel2.TabIndex = 1;
             // 
             // FormRegister

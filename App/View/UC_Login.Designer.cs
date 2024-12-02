@@ -29,11 +29,10 @@
         private void InitializeComponent()
         {
             PanelLogin = new Panel();
+            klikDaftar = new Label();
             btnLogin = new Button();
-            klikRegister = new Label();
             textPassword = new TextBox();
             textUsername = new TextBox();
-            klikDaftar = new Label();
             PanelLogin.SuspendLayout();
             SuspendLayout();
             // 
@@ -43,13 +42,24 @@
             PanelLogin.BackgroundImageLayout = ImageLayout.Zoom;
             PanelLogin.Controls.Add(klikDaftar);
             PanelLogin.Controls.Add(btnLogin);
-            PanelLogin.Controls.Add(klikRegister);
             PanelLogin.Controls.Add(textPassword);
             PanelLogin.Controls.Add(textUsername);
             PanelLogin.Location = new Point(384, 214);
             PanelLogin.Name = "PanelLogin";
             PanelLogin.Size = new Size(615, 604);
             PanelLogin.TabIndex = 0;
+            // 
+            // klikDaftar
+            // 
+            klikDaftar.AutoSize = true;
+            klikDaftar.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            klikDaftar.ForeColor = SystemColors.ActiveCaption;
+            klikDaftar.Location = new Point(367, 573);
+            klikDaftar.Name = "klikDaftar";
+            klikDaftar.Size = new Size(101, 31);
+            klikDaftar.TabIndex = 7;
+            klikDaftar.Text = "Register";
+            klikDaftar.Click += klikDaftar_Click;
             // 
             // btnLogin
             // 
@@ -64,13 +74,6 @@
             btnLogin.Text = "LOGIN";
             btnLogin.UseVisualStyleBackColor = false;
             btnLogin.Click += btnLogin_Click;
-            // 
-            // klikRegister
-            // 
-            klikRegister.Location = new Point(0, 0);
-            klikRegister.Name = "klikRegister";
-            klikRegister.Size = new Size(100, 23);
-            klikRegister.TabIndex = 8;
             // 
             // textPassword
             // 
@@ -90,25 +93,13 @@
             textUsername.Size = new Size(560, 20);
             textUsername.TabIndex = 0;
             // 
-            // klikDaftar
-            // 
-            klikDaftar.AutoSize = true;
-            klikDaftar.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            klikDaftar.ForeColor = SystemColors.ActiveCaption;
-            klikDaftar.Location = new Point(367, 573);
-            klikDaftar.Name = "klikDaftar";
-            klikDaftar.Size = new Size(101, 31);
-            klikDaftar.TabIndex = 7;
-            klikDaftar.Text = "Register";
-            klikDaftar.Click += klikDaftar_Click;
-            // 
             // UC_Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(PanelLogin);
             Name = "UC_Login";
-            Size = new Size(1382, 1033);
+            Size = new Size(1306, 1033);
             PanelLogin.ResumeLayout(false);
             PanelLogin.PerformLayout();
             ResumeLayout(false);
@@ -117,7 +108,6 @@
         #endregion
 
         private Panel PanelLogin;
-        private Label klikRegister;
         private TextBox textPassword;
         private TextBox textUsername;
         private Button btnLogin;

@@ -100,7 +100,7 @@
             Controls.Add(panel1);
             DoubleBuffered = true;
             Name = "UC_Register";
-            Size = new Size(1382, 1033);
+            Size = new Size(1306, 1033);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

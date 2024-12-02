@@ -63,6 +63,16 @@ namespace TanamAja.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CUSTOMER_Beranda_3 {
+            get {
+                object obj = ResourceManager.GetObject("CUSTOMER Beranda 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Dashboard_Pinggir {
             get {
                 object obj = ResourceManager.GetObject("Dashboard Pinggir", resourceCulture);
@@ -156,6 +166,26 @@ namespace TanamAja.Properties {
         internal static System.Drawing.Bitmap IkonProfil__1_ {
             get {
                 object obj = ResourceManager.GetObject("IkonProfil (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IkonProfilUser__1_ {
+            get {
+                object obj = ResourceManager.GetObject("IkonProfilUser (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IkonProfilUser__2_ {
+            get {
+                object obj = ResourceManager.GetObject("IkonProfilUser (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

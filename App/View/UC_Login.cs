@@ -41,24 +41,24 @@ namespace TanamAja.App.View
                 if (loggedInUser != null)
                 {
                     // Cek role pengguna
-                    if (loggedInUser.role == "customer")
+                    if (loggedInUser.role == "admin")
                     {
-                        MessageBox.Show("Login berhasil! Selamat datang, " + loggedInUser.username + ".", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Login berhasil sebagai admin! Selamat datang, " + loggedInUser.username + ".", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         // Buka dashboard customer
-                        DashboardCustomer customerDashboard = new DashboardCustomer();
+                        DashboardAdmin customerDashboard = new DashboardAdmin();
                         customerDashboard.Show();
 
                         // Tutup form login
                         Form parentForm = this.FindForm(); // Dapatkan referensi ke form utama
                         parentForm?.Close(); // Tutup form login
                     }
-                    else if (loggedInUser.role == "admin")
+                    else if (loggedInUser.role == "customer")
                     {
-                        MessageBox.Show("Login berhasil sebagai admin! Selamat datang, " + loggedInUser.username + ".", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Login berhasil! Selamat datang, " + loggedInUser.username + ".", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         // Buka dashboard admin (opsional)
-                        DashboardAdmin adminDashboard = new DashboardAdmin();
+                        DashboardCustomer adminDashboard = new DashboardCustomer();
                         adminDashboard.Show();
 
                         // Tutup form login
